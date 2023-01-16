@@ -13,12 +13,12 @@ function toggleMode(){
   //substituir a imagem
   if (html.classList.contains("light")) {
     //se tiver light mode, adicionar a imagem light
-    img.setAttribute('src', './assets/avatar-light.png')
-    img.setAttribute("alt", "Imagem do Shrek espantado e com a boca aberta")
+    img.setAttribute('src', './assets/avatar.png')
+    img.setAttribute("alt", "Foto de Jean Carlos Lúcio Vieira")
   } else {
     //se tiver sem light mode, manter a imagem normal
     img.setAttribute("src", "./assets/avatar.png")
-    img.setAttribute("alt", "Imagem do Shrek sorrindo e fundo verde")
+    img.setAttribute("alt", "Foto de Jean Carlos Lúcio Vieira")
   }
 
   
